@@ -1,0 +1,562 @@
+[
+    {
+      "_id": {
+        "$oid": "65ea486d2dafa36959511b9c"
+      },
+      "img": "https://res.cloudinary.com/dpn9svwqm/image/upload/v1709852780/zag6gcfkci5gbnz7dzfu.png",
+      "sourceUrl": "https://github.com/Xertifiedloaded/Ip-tracker",
+      "title": "Ip Tracker",
+      "url": "https://vercel.com/xertifiedloaded/ip-tracker",
+      "category": "frontend",
+      "createdAt": {
+        "$date": "2024-03-07T23:06:21.492Z"
+      },
+      "updatedAt": {
+        "$date": "2024-03-08T12:39:06.217Z"
+      },
+      "description": "paused"
+    },
+    {
+      "_id": {
+        "$oid": "65ea49392dafa36959511b9f"
+      },
+      "img": "https://res.cloudinary.com/dpn9svwqm/image/upload/v1709852985/g0kyuwi8je6bchmynmce.jpg",
+      "sourceUrl": "https://github.com/Xertifiedloaded/quiz-question",
+      "title": "Quiz Question",
+      "url": "quiz-question-dusky.vercel.app",
+      "category": "frontend",
+      "createdAt": {
+        "$date": "2024-03-07T23:09:45.870Z"
+      },
+      "updatedAt": {
+        "$date": "2024-03-07T23:09:45.870Z"
+      },
+      "description": "completed"
+    },
+    {
+      "_id": {
+        "$oid": "65ea4a702dafa36959511ba4"
+      },
+      "img": "https://res.cloudinary.com/dpn9svwqm/image/upload/v1709853295/qwpnmst13utourbvc7fu.png",
+      "sourceUrl": "https://github.com/Xertifiedloaded/loopstudios",
+      "title": "Loop studios",
+      "url": "loopstudios-alpha-livid.vercel.app",
+      "category": "frontend",
+      "createdAt": {
+        "$date": "2024-03-07T23:14:56.683Z"
+      },
+      "updatedAt": {
+        "$date": "2024-03-07T23:14:56.683Z"
+      },
+      "description": "in-progress"
+    },
+    {
+      "_id": {
+        "$oid": "65ea4b2f2dafa36959511ba7"
+      },
+      "img": "https://res.cloudinary.com/dpn9svwqm/image/upload/v1709853487/yhixjawhn3d8emrzbuk7.jpg",
+      "sourceUrl": "https://github.com/Xertifiedloaded/randomQuotes",
+      "title": "Random Quotes",
+      "url": "random-quotes-lilac-zeta.vercel.app",
+      "category": "frontend",
+      "createdAt": {
+        "$date": "2024-03-07T23:18:07.498Z"
+      },
+      "updatedAt": {
+        "$date": "2024-03-07T23:18:07.498Z"
+      },
+      "description": "completed"
+    },
+    {
+      "_id": {
+        "$oid": "65ea4c402dafa36959511bac"
+      },
+      "img": "https://res.cloudinary.com/dpn9svwqm/image/upload/v1709853760/lznnjgxjrjhec1fahq0h.png",
+      "sourceUrl": "https://github.com/Xertifiedloaded/toDo",
+      "title": "Todo List",
+      "url": "https://random-quotes-lilac-zeta.vercel.app/",
+      "category": "frontend",
+      "createdAt": {
+        "$date": "2024-03-07T23:22:40.646Z"
+      },
+      "updatedAt": {
+        "$date": "2024-03-07T23:22:40.646Z"
+      },
+      "description": "completed"
+    },
+    {
+      "_id": {
+        "$oid": "65ea4d642dafa36959511baf"
+      },
+      "img": "https://res.cloudinary.com/dpn9svwqm/image/upload/v1709854052/ybmmt7daob9gm3rxijwr.png",
+      "sourceUrl": "https://github.com/Xertifiedloaded/random-password-generator",
+      "title": "Random Password Generator",
+      "url": "https://random-password-generator-zeta.vercel.app/",
+      "category": "frontend",
+      "description": "vanillajs",
+      "createdAt": {
+        "$date": "2024-03-07T23:27:32.993Z"
+      },
+      "updatedAt": {
+        "$date": "2024-03-07T23:27:32.993Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65ea4e0f2dafa36959511bb2"
+      },
+      "img": "https://res.cloudinary.com/dpn9svwqm/image/upload/v1709854222/uevr9zacdzdj0b321ads.png",
+      "sourceUrl": "https://github.com/Xertifiedloaded/movie-app",
+      "title": "Movie App",
+      "url": "https://movie-app-one-jet.vercel.app/",
+      "category": "frontend",
+      "createdAt": {
+        "$date": "2024-03-07T23:30:23.193Z"
+      },
+      "updatedAt": {
+        "$date": "2024-03-07T23:30:23.193Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "65eab2102ef1afee0cc2d3d7"
+      },
+      "img": "https://res.cloudinary.com/dpn9svwqm/image/upload/v1709879824/jzvrkhsvi5hnaunrdwug.png",
+      "sourceUrl": "https://github.com/Xertifiedloaded/bitcoin-website",
+      "title": "Bitcoin website",
+      "url": "https://bitcoin-website.vercel.app/",
+      "category": "frontend",
+      "createdAt": {
+        "$date": "2024-03-08T06:37:04.571Z"
+      },
+      "updatedAt": {
+        "$date": "2024-03-08T06:37:04.571Z"
+      },
+      "description": "completed"
+    },
+    {
+      "_id": {
+        "$oid": "65eab2cf2ef1afee0cc2d3da"
+      },
+      "img": "https://res.cloudinary.com/dpn9svwqm/image/upload/v1709880013/yslcmy8qprjzlj2oyreg.png",
+      "sourceUrl": "https://github.com/Xertifiedloaded/huntr-new",
+      "title": "Huntr",
+      "url": "https://huntr-new-lilac.vercel.app/",
+      "category": "frontend",
+      "createdAt": {
+        "$date": "2024-03-08T06:40:15.152Z"
+      },
+      "updatedAt": {
+        "$date": "2024-03-08T06:40:15.152Z"
+      },
+      "description": "completed"
+    },
+    {
+      "_id": {
+        "$oid": "65eab3bc2ef1afee0cc2d3dd"
+      },
+      "img": "https://res.cloudinary.com/dpn9svwqm/image/upload/v1709880251/bnkxir2slxm5zmmfpero.png",
+      "sourceUrl": "https://github.com/Xertifiedloaded/sendna",
+      "title": "sendna",
+      "url": "https://sendna.vercel.app/",
+      "category": "frontend",
+      "createdAt": {
+        "$date": "2024-03-08T06:44:12.537Z"
+      },
+      "updatedAt": {
+        "$date": "2024-03-08T06:44:12.537Z"
+      },
+      "description": "completed"
+    },
+    {
+      "_id": {
+        "$oid": "65eab4a32ef1afee0cc2d3e0"
+      },
+      "img": "https://res.cloudinary.com/dpn9svwqm/image/upload/v1709880482/u6ienlpndynyqyitxmc5.png",
+      "sourceUrl": "https://github.com/Xertifiedloaded/ctaste",
+      "title": "Ctaste",
+      "url": "https://sendna.vercel.app/",
+      "category": "frontend",
+      "createdAt": {
+        "$date": "2024-03-08T06:48:03.352Z"
+      },
+      "updatedAt": {
+        "$date": "2024-03-08T06:48:03.352Z"
+      },
+      "description": "completed"
+    },
+    {
+      "_id": {
+        "$oid": "65eab5992ef1afee0cc2d3e5"
+      },
+      "img": "https://res.cloudinary.com/dpn9svwqm/image/upload/v1709880729/qlnvvc6fuhzw8b53w5fi.png",
+      "sourceUrl": "https://github.com/Xertifiedloaded/Finsweet",
+      "title": "finsweet",
+      "url": "https://finsweet-omega.vercel.app",
+      "category": "frontend",
+      "createdAt": {
+        "$date": "2024-03-08T06:52:09.837Z"
+      },
+      "updatedAt": {
+        "$date": "2024-03-08T06:52:09.837Z"
+      },
+      "description": "completed"
+    },
+    {
+      "_id": {
+        "$oid": "65eab60f2ef1afee0cc2d3e8"
+      },
+      "img": "https://res.cloudinary.com/dpn9svwqm/image/upload/v1709880847/dscxsisvu7ozipz4ic1g.png",
+      "sourceUrl": "https://github.com/Xertifiedloaded/snap",
+      "title": "snap",
+      "url": "https://snap-flax.vercel.app/",
+      "category": "frontend",
+      "createdAt": {
+        "$date": "2024-03-08T06:54:07.989Z"
+      },
+      "updatedAt": {
+        "$date": "2024-03-08T06:54:07.989Z"
+      },
+      "description": "completed"
+    },
+    {
+      "_id": {
+        "$oid": "65eab6842ef1afee0cc2d3eb"
+      },
+      "img": "https://res.cloudinary.com/dpn9svwqm/image/upload/v1709880963/aiwjznidsvpivfveiavv.png",
+      "sourceUrl": "https://github.com/Xertifiedloaded/food-app",
+      "title": "foodapp",
+      "url": "https://food-app-seven-vert.vercel.app/",
+      "category": "frontend",
+      "createdAt": {
+        "$date": "2024-03-08T06:56:04.510Z"
+      },
+      "updatedAt": {
+        "$date": "2024-03-08T06:56:04.510Z"
+      },
+      "description": "paused"
+    },
+    {
+      "_id": {
+        "$oid": "65eab7212ef1afee0cc2d3ee"
+      },
+      "img": "https://res.cloudinary.com/dpn9svwqm/image/upload/v1709881120/tiih8gqkjit4bx6euulg.png",
+      "sourceUrl": "https://github.com/Xertifiedloaded/tems-store",
+      "title": "tems-store",
+      "url": "https://store-sandy-nine.vercel.app/",
+      "category": "frontend",
+      "createdAt": {
+        "$date": "2024-03-08T06:58:41.060Z"
+      },
+      "updatedAt": {
+        "$date": "2024-03-08T06:58:41.060Z"
+      },
+      "description": "paused"
+    },
+    {
+      "_id": {
+        "$oid": "65eab7dd2ef1afee0cc2d3f1"
+      },
+      "img": "https://res.cloudinary.com/dpn9svwqm/image/upload/v1709881308/c6pem7uludnj83oigwnq.png",
+      "sourceUrl": "https://github.com/Xertifiedloaded/centralize",
+      "title": "centralize",
+      "url": "https://centralize-liart.vercel.app",
+      "category": "frontend",
+      "createdAt": {
+        "$date": "2024-03-08T07:01:49.259Z"
+      },
+      "updatedAt": {
+        "$date": "2024-03-08T07:01:49.259Z"
+      },
+      "description": "paused"
+    },
+    {
+      "_id": {
+        "$oid": "65eab8482ef1afee0cc2d3f4"
+      },
+      "img": "https://res.cloudinary.com/dpn9svwqm/image/upload/v1709881415/zoj83edetftpggtqnbxh.png",
+      "sourceUrl": "https://github.com/Xertifiedloaded/wise",
+      "title": "wise-money",
+      "url": "https://wise-mocha.vercel.app/",
+      "category": "frontend",
+      "createdAt": {
+        "$date": "2024-03-08T07:03:36.358Z"
+      },
+      "updatedAt": {
+        "$date": "2024-03-08T07:03:36.358Z"
+      },
+      "description": "completed"
+    },
+    {
+      "_id": {
+        "$oid": "65eabaed2ef1afee0cc2d401"
+      },
+      "img": "https://res.cloudinary.com/dpn9svwqm/image/upload/v1709882092/ngjb6o9y1fahizbj64ex.png",
+      "sourceUrl": "https://github.com/Xertifiedloaded/online-store",
+      "title": "Store",
+      "url": "https://online-store-ecru-sigma.vercel.app/",
+      "category": "frontend",
+      "createdAt": {
+        "$date": "2024-03-08T07:14:53.518Z"
+      },
+      "updatedAt": {
+        "$date": "2024-03-08T07:14:53.518Z"
+      },
+      "description": "paused"
+    },
+    {
+      "_id": {
+        "$oid": "65eabbea2ef1afee0cc2d404"
+      },
+      "img": "https://res.cloudinary.com/dpn9svwqm/image/upload/v1709882346/gaxn5poz9xdx57nrrqqk.png",
+      "sourceUrl": "https://github.com/Xertifiedloaded/cream_car-NEXTJS",
+      "title": "cream",
+      "url": "https://cream-car-nextjs.vercel.app/",
+      "category": "nextjs",
+      "createdAt": {
+        "$date": "2024-03-08T07:19:06.898Z"
+      },
+      "updatedAt": {
+        "$date": "2024-03-08T07:19:06.898Z"
+      },
+      "description": "in-progress"
+    },
+    {
+      "_id": {
+        "$oid": "65eabc752ef1afee0cc2d407"
+      },
+      "img": "https://res.cloudinary.com/dpn9svwqm/image/upload/v1709902810/azfkmoqgfvmoimudu8gx.png",
+      "sourceUrl": "https://github.com/Xertifiedloaded/huntrr",
+      "title": "huntr",
+      "url": "https://vercel.com/xertifiedloaded/huntrr/CNF634w14hXxkGQgesCEwEncJpYD",
+      "category": "vanillajs",
+      "createdAt": {
+        "$date": "2024-03-08T07:21:25.463Z"
+      },
+      "updatedAt": {
+        "$date": "2024-03-08T13:00:11.046Z"
+      },
+      "description": "completed"
+    },
+    {
+      "_id": {
+        "$oid": "65eabcf82ef1afee0cc2d40a"
+      },
+      "img": "https://res.cloudinary.com/dpn9svwqm/image/upload/v1709882616/admncb35el0dvig5np9v.png",
+      "sourceUrl": "https://github.com/Xertifiedloaded/tsf-bank",
+      "title": "tsf-bank",
+      "url": "https://tsf-bank-beta.vercel.app/",
+      "category": "frontend",
+      "createdAt": {
+        "$date": "2024-03-08T07:23:36.587Z"
+      },
+      "updatedAt": {
+        "$date": "2024-03-08T07:23:36.587Z"
+      },
+      "description": "completed"
+    },
+    {
+      "_id": {
+        "$oid": "65eac1b22ef1afee0cc2d421"
+      },
+      "img": "https://res.cloudinary.com/dpn9svwqm/image/upload/v1709883826/a89o2bxqapbrnqsgfbl3.jpg",
+      "sourceUrl": "https://github.com/Xertifiedloaded/EstonBank_App-Backend",
+      "title": "bank app",
+      "url": "https://github.com/Xertifiedloaded/EstonBank_App-Backend",
+      "category": "backend",
+      "createdAt": {
+        "$date": "2024-03-08T07:43:46.508Z"
+      },
+      "updatedAt": {
+        "$date": "2024-03-08T07:43:46.508Z"
+      },
+      "description": "completed"
+    },
+    {
+      "_id": {
+        "$oid": "65eac2382ef1afee0cc2d427"
+      },
+      "img": "https://res.cloudinary.com/dpn9svwqm/image/upload/v1709883959/ofoz7oprpk8yk1fryexo.jpg",
+      "sourceUrl": "https://github.com/Xertifiedloaded/PSQL",
+      "title": "postresSQL",
+      "url": "https://github.com/Xertifiedloaded/PSQL",
+      "category": "backend",
+      "createdAt": {
+        "$date": "2024-03-08T07:46:00.423Z"
+      },
+      "updatedAt": {
+        "$date": "2024-03-08T07:46:00.423Z"
+      },
+      "description": "completed"
+    },
+    {
+      "_id": {
+        "$oid": "65eac2692ef1afee0cc2d42a"
+      },
+      "img": "https://res.cloudinary.com/dpn9svwqm/image/upload/v1709884009/h1zzjqziqgjywyhksalc.jpg",
+      "sourceUrl": "https://github.com/Xertifiedloaded/portfolio-backend",
+      "title": "portfolio",
+      "url": "https://github.com/Xertifiedloaded/portfolio-backend",
+      "category": "backend",
+      "createdAt": {
+        "$date": "2024-03-08T07:46:49.658Z"
+      },
+      "updatedAt": {
+        "$date": "2024-03-08T07:46:49.658Z"
+      },
+      "description": "completed"
+    },
+    {
+      "_id": {
+        "$oid": "65eac2a82ef1afee0cc2d42d"
+      },
+      "img": "https://res.cloudinary.com/dpn9svwqm/image/upload/v1709884072/zt3y1jzhs1urxet7jhpz.jpg",
+      "sourceUrl": "https://github.com/Xertifiedloaded/Whatsapp",
+      "title": "chatapp",
+      "url": "https://github.com/Xertifiedloaded/Whatsapp",
+      "category": "backend",
+      "createdAt": {
+        "$date": "2024-03-08T07:47:52.677Z"
+      },
+      "updatedAt": {
+        "$date": "2024-03-08T07:47:52.677Z"
+      },
+      "description": "in-progress"
+    },
+    {
+      "_id": {
+        "$oid": "65eac3c52ef1afee0cc2d433"
+      },
+      "img": "https://res.cloudinary.com/dpn9svwqm/image/upload/v1709884357/hil9wjyqx6nsjccrypn1.png",
+      "sourceUrl": "https://github.com/Xertifiedloaded/web3",
+      "title": "web3",
+      "url": "https://wallet-connect-blond.vercel.app/",
+      "category": "frontend ",
+      "createdAt": {
+        "$date": "2024-03-08T07:52:37.915Z"
+      },
+      "updatedAt": {
+        "$date": "2024-03-08T07:52:37.915Z"
+      },
+      "description": "completed"
+    },
+    {
+      "_id": {
+        "$oid": "65eac4082ef1afee0cc2d436"
+      },
+      "img": "https://res.cloudinary.com/dpn9svwqm/image/upload/v1709884424/xst4ghh48vrdyrgfic43.jpg",
+      "sourceUrl": "https://github.com/Xertifiedloaded/web3/tree/main/backend",
+      "title": "web3",
+      "url": "https://github.com/Xertifiedloaded/web3/tree/main/backend",
+      "category": "backend ",
+      "createdAt": {
+        "$date": "2024-03-08T07:53:44.821Z"
+      },
+      "updatedAt": {
+        "$date": "2024-03-08T07:53:44.821Z"
+      },
+      "description": "completed"
+    },
+    {
+      "_id": {
+        "$oid": "65eac5302ef1afee0cc2d439"
+      },
+      "img": "https://res.cloudinary.com/dpn9svwqm/image/upload/v1717950957/fcwcbo9kef0hrpzxudwu.png",
+      "sourceUrl": "private",
+      "title": "duwithub",
+      "url": "https://duwitthub.netlify.app/",
+      "category": "frontend",
+      "createdAt": {
+        "$date": "2024-03-08T07:58:40.236Z"
+      },
+      "updatedAt": {
+        "$date": "2024-06-09T16:35:57.172Z"
+      },
+      "description": "in-progress"
+    },
+    {
+      "_id": {
+        "$oid": "65eac5a42ef1afee0cc2d43c"
+      },
+      "img": "https://res.cloudinary.com/dpn9svwqm/image/upload/v1717951178/egmjpyskegqw8yw9k9hi.png",
+      "sourceUrl": "private",
+      "title": "duwithub",
+      "url": "private",
+      "category": "frontend",
+      "createdAt": {
+        "$date": "2024-03-08T08:00:36.188Z"
+      },
+      "updatedAt": {
+        "$date": "2024-06-09T16:39:38.028Z"
+      },
+      "description": "paused"
+    },
+    {
+      "_id": {
+        "$oid": "6649bc803757126de4505c0e"
+      },
+      "img": "https://res.cloudinary.com/dpn9svwqm/image/upload/v1717950997/q46uud4xedjulgzyabfj.png",
+      "sourceUrl": "private",
+      "title": "Duwithub-v2",
+      "description": "Your Gateway to Crypto Exploration\nExplore cryptocurrency with ease using our beginner-friendly description and resources, including P2P trading and educational materials.\nExplore cryptocurrency with ease using our beginner-friendly description and resources, including P2P trading and educational materials.\n",
+      "url": "lite-webapp.vercel.app",
+      "category": "frontend",
+      "createdAt": {
+        "$date": "2024-05-19T08:46:56.614Z"
+      },
+      "updatedAt": {
+        "$date": "2024-06-09T16:36:37.652Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "66604a9effb04b45fc98052d"
+      },
+      "img": "https://res.cloudinary.com/dpn9svwqm/image/upload/v1718115332/wwcmvpunvpyb9c6lcbqn.png",
+      "sourceUrl": "private",
+      "title": "Parrot Picks",
+      "description": "<p>An ongoing cohort project initiated on June 1st, 2024, aimed at engaging users by allowing them to predict football match outcomes and win tokens. This project involves developing and managing critical components, including user and admin authentication, team models, fixtures, predictions, and merging contributions from multiple team branches on GitHub</p>",
+      "url": "null",
+      "category": "backend",
+      "createdAt": {
+        "$date": "2024-06-05T11:23:10.994Z"
+      },
+      "updatedAt": {
+        "$date": "2024-06-11T16:46:24.585Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "66a748ad65d0d7f68beb75d4"
+      },
+      "img": "https://res.cloudinary.com/dpn9svwqm/image/upload/v1722239147/sx6ontzhe9decufjvnnh.png",
+      "sourceUrl": "nothing",
+      "title": "Department of Animal Breeding and Genetics",
+      "description": "Developed a user-friendly web interface for managing alumni information,&nbsp; Implemented automated email notifications and prompts triggered when users fill out forms, enhancing communication and workflow efficiency.",
+      "url": "https://animal-breeding-and-genetics.vercel.app/",
+      "category": "frontend",
+      "createdAt": {
+        "$date": "2024-07-29T07:45:49.348Z"
+      },
+      "updatedAt": {
+        "$date": "2024-07-29T07:45:49.348Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "66a74ce965d0d7f68beb75dd"
+      },
+      "img": "https://res.cloudinary.com/dpn9svwqm/image/upload/v1722240293/svlac7jib2zszr9nyery.png",
+      "sourceUrl": "nothing to see the project is private",
+      "title": "Department Of Animal Breeding and Genetics (Admin)",
+      "description": "Developed a user-friendly web interface for managing alumni information,&nbsp;Implemented automated email notifications and prompts triggered when users fill out",
+      "url": "https://abg-frontend-admin.vercel.app",
+      "category": "frontend",
+      "createdAt": {
+        "$date": "2024-07-29T08:03:53.391Z"
+      },
+      "updatedAt": {
+        "$date": "2024-07-29T08:04:54.482Z"
+      }
+    }
+  ]

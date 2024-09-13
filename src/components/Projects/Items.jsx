@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 const Items = ({ projectItems }) => {
   return (
     <>
-      {projectItems.map((projectItem) => {
+      {projectItems.reverse().map((projectItem) => {
         const { id, img, category, title, description, url, sourceUrl } =
           projectItem;
         return (
@@ -28,7 +28,7 @@ const Items = ({ projectItems }) => {
               />
             </div>
 
-            <span className='text-primaryColor text-largest font-[700] mb-[5px] block uppercase tracking-[0.05em] mt-[30px]'>
+            <span className='text-primaryColor text-[12px] font-[700] mb-[5px] block uppercase tracking-[0.05em] mt-[30px]'>
               {category}
             </span>
             <h3 className='text-largest text-titleColor dark:text-titleColorDark font-[700]'>
@@ -64,11 +64,6 @@ const Items = ({ projectItems }) => {
                 <AiFillGithub className='z-[2] w-[26px] h-[26px] text-titleColor dark:text-titleColorDark' />
               </a>
             </div>
-            <img
-              src={shapeTwo}
-              alt='shape for design service cards'
-              className='absolute right-[-24px] bottom-[-24px] w-[141px] h-[141px] dark:invert-[1] dark:opacity-[0.6]'
-            />
           </motion.div>
         );
       })}

@@ -1,20 +1,30 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { AnimatePresence } from 'framer-motion';
 
 import Items from './Items';
 import List from './List';
 
-import { project } from '../../../Data';
-
-const allNavList = ['all', ...new Set(project.map((proj) => proj.category))];
+import { useResource } from '@/lib/useApiResources';
 
 const Projects = () => {
+  const API_URL = "/api/project/project";
+  const { data: project } = useResource(API_URL);
 
-  const [projectItems, setMenuItems] = useState(project);
-  const [navList, setCategories] = useState(allNavList);
+  const [projectItems, setMenuItems] = useState([]);
+  const [navList, setCategories] = useState(['fullstack']);
+console.log(navList);
+
+
+  useEffect(() => {
+    if (project && project.length > 0) {
+      const allNavList = [ ...new Set(project.map((proj) => proj.category))];
+      setCategories(allNavList); 
+      setMenuItems(project);    
+    }
+  }, [project]);
 
   const filterItems = (category) => {
-    if (category === 'all') {
+    if (category === 'fullstack') {
       setMenuItems(project);
       return;
     }

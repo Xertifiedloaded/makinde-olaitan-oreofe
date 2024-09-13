@@ -12,7 +12,7 @@ const Card = (props) => {
       <div className={`${showInfo ? 'show-content max-h-[500px]' : ''} max-h-0 resume__content  overflow-hidden text-titleColor dark:text-titleColorDark`}>
         <div className='resume__date-title flex justify-between items-center'>
           <h3 className='resume__title text-[28px]  text-titleColor dark:text-titleColorDark'>{props.subtitle}</h3>
-          <span className='resume__date text-cs text-titleColor dark:text-titleColorDark'>{props.date}</span>
+          <span className='resume__date text-black   dark:text-white'>{props.date}</span>
         </div>
 
         <p className='resume__desc text-textColor dark:text-textColorDark'>{props.description}</p>

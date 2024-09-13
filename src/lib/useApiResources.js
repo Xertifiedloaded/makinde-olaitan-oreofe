@@ -1,3 +1,4 @@
+'use client'
 import { useState, useEffect } from 'react';
 
 export const useResource = (baseURL, endpoints = {}) => {
@@ -8,7 +9,7 @@ export const useResource = (baseURL, endpoints = {}) => {
   const fetchData = async () => {
     try {
       setLoading(true);
-      const response = await fetch(baseURL);
+      const response = await fetch(endpoints.get || baseURL);
       const result = await response.json();
       setData(result.data || []);
     } catch (error) {
@@ -40,8 +41,7 @@ export const useResource = (baseURL, endpoints = {}) => {
 
   const edit = async (id, item) => {
     try {
-      const editURL = endpoints.edit ? `${endpoints.edit}/${id}` : `${baseURL}/${id}`;
-      const response = await fetch(editURL, {
+      const response = await fetch(`${endpoints.edit || baseURL}/${id}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
@@ -61,8 +61,7 @@ export const useResource = (baseURL, endpoints = {}) => {
 
   const remove = async (id) => {
     try {
-      const removeURL = endpoints.remove ? `${endpoints.remove}/${id}` : `${baseURL}/${id}`;
-      const response = await fetch(removeURL, {
+      const response = await fetch(`${endpoints.remove || baseURL}/${id}`, {
         method: 'DELETE',
       });
       const result = await response.json();
