@@ -2,6 +2,7 @@ import transporter from "@/lib/nodemailer";
 import { contactTemplate } from "@/lib/ThankYou";
 
 
+
 export default async function handler(req, res) {
   const { method } = req;
   switch (method) {
