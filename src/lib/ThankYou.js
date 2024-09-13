@@ -1,4 +1,4 @@
-// lib/thankYouTemplate.js
+
 export const thankYouTemplate = (email) => `
 <!DOCTYPE html>
 <html lang="en">
