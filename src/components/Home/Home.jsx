@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <section
       className="flex px-8 sm:px-4 pt-[160px] sm:pt-[200px] lg:pt-[165px] justify-center bg-gradient-180 from-bgColor to-bgColorAlt overflow-x-hidden pb-[180px] sm:pb-[0px] dark:from-bgColorDark dark:to-bgColorDark scrollbar-hide"
-      id="home"
+
     >
       <div className="min-h-screen grid items-center grid-rows-flow-2 xs:gap-20 sm:gap-28 lg:grid-cols-2 3xl:gap-96">
         {/* left side */}

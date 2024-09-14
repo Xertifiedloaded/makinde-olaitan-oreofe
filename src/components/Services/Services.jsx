@@ -14,7 +14,6 @@ const Services = () => {
   return (
     <section
       className='pb-[50px] sm:pb-[220px] bg-gradient-to-b from-bgColorAlt to-bgColor dark:from-bgColorDark dark:to-bgColorAltDark px-[5%] sm:px-[4.5%] 2xl:px-[17%]'
-      id='services'
     >
       <h2 className='uppercase tracking-[0.05em] text-[34px] sm:text-h1Size font-[700] text-titleColor dark:text-titleColorDark text-center'>
         What I Do

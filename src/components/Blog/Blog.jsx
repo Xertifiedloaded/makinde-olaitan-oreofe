@@ -13,7 +13,7 @@ const Blog = () => {
   return (
     <section
       className="portfolio section pb-[220px] bg-gradient-0 from-bgColor to-bgColor dark:bg-gradient-180 dark:from-bgColorAltDark dark:to-bgColorDark px-[5%] sm:px-[2%] 2xl:px-[17%]"
-      id="blog"
+
     >
       <h2 className="uppercase tracking-wide text-h1Size font-bold text-titleColor dark:text-titleColorDark text-center">
         Latest Blog

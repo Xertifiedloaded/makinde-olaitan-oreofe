@@ -9,7 +9,6 @@ const Resume = () => {
   return (
     <section
       className='pb-[220px] bg-gradient-0 dark:bg-gradient-0 dark:from-bgColorAltDark dark:to-bgColorDark from-bgColor to-bgColor px-[10%] sm:px-[8%] 2xl:px-[17%]'
-      id='resume'
     >
       <h2 className='uppercase tracking-[0.05em] text-[34px] sm:text-h1Size font-[700] text-titleColor dark:text-titleColorDark text-center'>
         Resume
