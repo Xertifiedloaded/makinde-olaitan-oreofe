@@ -8,7 +8,7 @@ export default function RootLayout() {
     <Html lang="en">
       <Head />
 
-      <body>
+      <body >
         <Main />
         <NextScript />
       </body>

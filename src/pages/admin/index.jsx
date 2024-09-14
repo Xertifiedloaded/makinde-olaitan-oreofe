@@ -62,7 +62,7 @@ const Dashboard = () => {
     }
   };
 
-  if (postsLoading || projectsLoading || servicesLoading) return <p className="text-center py-4">Loading...</p>;
+
   // if (postsError || projectsError || servicesError) return <p className="text-center py-4 text-red-600">Error: {postsError?.message || projectsError?.message || servicesError?.message}</p>;
 
   const renderTabContent = () => {

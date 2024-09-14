@@ -35,8 +35,7 @@ const Projects = () => {
 
   return (
     <section
-      className='portfolio section pb-[220px] bg-gradient-0 from-bgColor to-bgColor  dark:bg-gradient-180 dark:from-bgColorAltDark dark:to-bgColorDark px-[5%] sm:px-[2%] 2xl:px-[17%]'
-
+      className='portfolio  section pb-[50px] bg-gradient-0 from-bgColor to-bgColor  dark:bg-gradient-180 dark:from-bgColorAltDark dark:to-bgColorDark px-[5%] sm:px-[2%] 2xl:px-[17%]'
     >
       <h2 className='uppercase tracking-[0.05em] text-[34px] sm:text-h1Size font-[700] text-titleColor dark:text-titleColorDark text-center'>
         Projects
@@ -50,7 +49,7 @@ const Projects = () => {
 
       <List list={navList} filterItems={filterItems} />
 
-      <div className='sm:grid-cols-2 xl:grid-cols-3 gap-[40px] grid'>
+      <div className=''>
         <AnimatePresence initial={false}>
           <Items projectItems={projectItems} />
         </AnimatePresence>

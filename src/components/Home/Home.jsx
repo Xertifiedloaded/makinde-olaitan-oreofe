@@ -1,15 +1,13 @@
-import dynamic from "next/dynamic";
-import React from "react";
-import Image from "next/image";
+import dynamic from "next/dynamic"
+import React, { useEffect, useState } from "react"
+import Image from "next/image"
 
 const AnimatedNumbers = dynamic(() => import("react-animated-numbers"), {
   ssr: false,
-});
-import { Link } from "react-scroll";
-import { motion } from "framer-motion";
-import profileImage from "../../../public/xertifiedloaded.jpeg";
-import shapeOne from "../../assets/shape-1.png";
-import shapeTwo from "../../assets/shape-2.png";
+})
+import { Link } from "react-scroll"
+import { motion } from "framer-motion"
+import profileImage from "../../../public/xertifiedloaded.jpeg"
 
 import {
   FaTwitter,
@@ -19,15 +17,25 @@ import {
   FaYoutube,
   FaGithub,
   FaEnvelope,
-} from "react-icons/fa";
+} from "react-icons/fa"
+import { useResource } from "@/lib/useApiResources"
 
 export default function Home() {
-  const transition = { duration: 3, type: "spring" };
-  return (
-    <section
-      className="flex px-8 sm:px-4 pt-[160px] sm:pt-[200px] lg:pt-[165px] justify-center bg-gradient-180 from-bgColor to-bgColorAlt overflow-x-hidden pb-[180px] sm:pb-[0px] dark:from-bgColorDark dark:to-bgColorDark scrollbar-hide"
+  const transition = { duration: 3, type: "spring" }
+  const [loading, setLoading] = useState(true)
+  const [formattedPostLength, setFormattedPostLength] = useState("00")
+  const { data: project } = useResource("/api/project/project")
 
-    >
+  useEffect(() => {
+    if (project) {
+      const length = project.length
+      setFormattedPostLength(length < 10 ? `0${length}` : length.toString())
+      setLoading(false)
+    }
+  }, [project])
+
+  return (
+    <section className="flex px-8 sm:px-4 pt-[160px] sm:pt-[200px] lg:pt-[165px] justify-center bg-gradient-180 from-bgColor to-bgColorAlt overflow-x-hidden pb-[180px] sm:pb-[0px] dark:from-bgColorDark dark:to-bgColorDark scrollbar-hide">
       <div className="min-h-screen grid items-center grid-rows-flow-2 xs:gap-20 sm:gap-28 lg:grid-cols-2 3xl:gap-96">
         {/* left side */}
         <div className="relative top-[15%] sm:top-[-8%] p-3 w-full text-white grid gird-rows-flow-6 gap-2 order-2 lg:order-1">
@@ -62,7 +70,7 @@ export default function Home() {
 
           <div className="flex gap-[20px] mb-[30px] justify-center sm:justify-start">
             <a
-              href="#"
+              href="https://x.com/xertifiedloaded?s=21&t=4afhWqzJQffsZTnO1q85ig"
               className="text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor dark:text-textColorDark dark:hover:text-primaryColor hover:animate-bounce"
             >
               <FaTwitter />
@@ -74,7 +82,7 @@ export default function Home() {
               <FaFacebookSquare />
             </a>
             <a
-              href="#"
+              href="https://github.com/Xertifiedloaded"
               className="text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor dark:text-textColorDark dark:hover:text-primaryColor hover:animate-bounce"
             >
               <FaGithub />
@@ -108,7 +116,7 @@ export default function Home() {
           <div className="flex gap-[70px] font-[700] uppercase tracking-[0.05em] items-center justify-center mx-[-40px] sm:mx-0 sm:justify-start">
             <a
               href="https://docs.google.com/document/d/1pD7UK1_kmFaC6l9MX99MtNN8gYfNSzYDUFn8wwg-64c/edit?usp=sharing"
-              download="ResumeOfImanKhaki.pdf"
+              // download="ResumeOfImanKhaki.pdf"
               target="_blank"
               className='text-titleColor dark:text-titleColorDark text-tiny grid place-items-center border-[2px] border-solid border-borderColor dark:border-borderColorDark p-[20px] rounded-[56px] shadow-[5px_5px_rgba(0,0,0,0.2)] dark:shadow-[5px_5px_rgba(255,255,255,0.1)] relative before:content-[""] before:absolute before:inset-[2px] before:bg-primaryColor before:rounded-[56px] before:scale-[0.3] before:blur-[10px] before:opacity-0 before:transition-all before:duration-[0.6s] before:ease-[cubic-bezier(0.3,0,0.3,1)] before:z-[0] hover:before:scale-[1] hover:before:blur-0 hover:before:opacity-100'
             >
@@ -129,27 +137,27 @@ export default function Home() {
         </div>
         {/* right side */}
         <div className="relative top-0 right-0 sm:translate-y-[-9%] rounded-full bg-primaryColor w-full max-w-[680px] lg:order-2">
-        <div className="relative bg-gradient-180 from-[#33cca3] via-[#00ffbb] to-[#6bff6b] z-[1] pb-[100%] rounded-full">
-  <motion.div
-    initial={{ bottom: "50px" }}
-    whileInView={{ bottom: "-1px" }}
-    transition={transition}
-    className="absolute inset-0"
-  >
-    <Image
-      src={profileImage}
-      alt="HeroImg"
-      layout="fill"  // Ensures the image takes up the entire container
-      objectFit="cover"  // Ensures the image covers the container while maintaining aspect ratio
-      className="rounded-full"  // Ensures the image follows the container's rounded shape
-    />
-  </motion.div>
-</div>
+          <div className="relative bg-gradient-180 from-[#33cca3] via-[#00ffbb] to-[#6bff6b] z-[1] pb-[100%] rounded-full">
+            <motion.div
+              initial={{ bottom: "50px" }}
+              whileInView={{ bottom: "-1px" }}
+              transition={transition}
+              className="absolute inset-0"
+            >
+              <Image
+                src={profileImage}
+                alt="HeroImg"
+                layout="fill"
+                objectFit="cover"
+                className="rounded-full"
+              />
+            </motion.div>
+          </div>
 
           <div className="uppercase absolute bottom-[-23%] left-[-5%] sm:bottom-[20%] sm:left-[2%] border-[3px] border-solid border-borderColor bg-containerColor sm:shadow-[5px_5px_rgba(0,0,0,0.2)] dark:sm:shadow-[5px_5px_rgba(0,0,0,0.3)] shadow-[5px_5px_rgba(0,0,0,0.3)] dark:shadow-[5px_5px_rgba(255,255,255,0.3)] px-[5px] xs:px-[10px] sm:px-[20px] xs:w-[165px] w-[145px] sm:w-[250px] sm:h-[82px] rounded-[82px] flex items-center z-[1]">
             <span className="w-[50%] text-titleColor font-[700] text-center text-[30px] sm:text-[40px] flex items-center gap-2">
               <AnimatedNumbers
-                animateToNumber="3"
+                animateToNumber="2"
                 locale="en"
                 configs={[
                   { mass: 1, tension: 220, friction: 100 },
@@ -166,33 +174,28 @@ export default function Home() {
             </span>
 
             <span className="ml-[10px] sm:ml-0 text-[10px] sm:text-[15px] leading-[1.5em] font-[700] text-titleColor">
-              
               Years of <span className="text-primaryColor">Experience</span>
             </span>
           </div>
-
-          <div className=" uppercase absolute bottom-[-23%] right-[-4%] sm:bottom-[12%] sm:right-[6%] lg:bottom-[5%] border-[3px] border-solid border-borderColor bg-containerColor sm:shadow-[5px_5px_rgba(0,0,0,0.2)] dark:sm:shadow-[5px_5px_rgba(0,0,0,0.3)] shadow-[5px_5px_rgba(0,0,0,0.3)] dark:shadow-[5px_5px_rgba(255,255,255,0.3)] px-[5px] xs:px-[10px] sm:px-[20px] xs:w-[165px] w-[140px] sm:w-[250px] sm:h-[82px] rounded-[82px] flex items-center z-[1]">
+          <div className="uppercase absolute bottom-[-23%] right-[-4%] sm:bottom-[12%] sm:right-[6%] lg:bottom-[5%] border-[3px] border-solid border-borderColor bg-containerColor sm:shadow-[5px_5px_rgba(0,0,0,0.2)] dark:sm:shadow-[5px_5px_rgba(0,0,0,0.3)] shadow-[5px_5px_rgba(0,0,0,0.3)] dark:shadow-[5px_5px_rgba(255,255,255,0.3)] px-[5px] xs:px-[10px] sm:px-[20px] xs:w-[165px] w-[140px] sm:w-[250px] sm:h-[82px] rounded-[82px] flex items-center z-[1]">
             <span className="w-[50%] text-titleColor font-[700] text-center text-[30px] sm:text-[40px]">
-              <AnimatedNumbers
-                animateToNumber="11"
-                locale="en"
-                configs={[
-                  { mass: 1, tension: 220, friction: 100 },
-                  { mass: 1, tension: 180, friction: 130 },
-                  { mass: 1, tension: 280, friction: 90 },
-                  { mass: 1, tension: 180, friction: 135 },
-                  { mass: 1, tension: 260, friction: 100 },
-                  { mass: 1, tension: 210, friction: 180 },
-                ]}
-              />
+              {loading ? (
+               <div className="spinner"></div>
+              ) : (
+                <AnimatedNumbers
+                  animateToNumber={parseInt(formattedPostLength, 10)}
+                  locale="en"
+                  configs={[{ mass: 1, tension: 170, friction: 26 }]}
+                />
+              )}
             </span>
 
             <span className="ml-[10px] sm:ml-0 text-[10px] sm:text-[15px] leading-[1.5em] font-[700] text-titleColor">
-              Completed <span className="text-primaryColor">Projects</span>
+              <span className="text-primaryColor">Projects</span>
             </span>
           </div>
         </div>
       </div>
     </section>
-  );
+  )
 }

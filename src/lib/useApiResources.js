@@ -81,9 +81,16 @@ export const useResource = (baseURL, endpoints = {}) => {
     }
   }
 
-  useEffect(() => {
-    fetchData()
-  }, [fetchData])
+
 
   return { data, loading, error, add, edit, remove }
 }
+
+
+export const getPostBySlug = async (id) => {
+  const res = await fetch(`/api/blog/${id}`);
+  if (!res.ok) {
+    throw new Error('Network response was not ok');
+  }
+  return res.json();
+};

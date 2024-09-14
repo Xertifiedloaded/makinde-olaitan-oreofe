@@ -36,6 +36,7 @@ const Services = () => {
           bulletClass: 'swiper-pagination-bullet', 
           bulletActiveClass: 'swiper-pagination-bullet-active' 
         }}
+        
         breakpoints={{
           540: {
             slidesPerView: 1,
