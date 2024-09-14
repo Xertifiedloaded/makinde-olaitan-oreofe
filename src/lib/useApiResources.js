@@ -22,7 +22,7 @@ export const useResource = (baseURL, endpoints = {}) => {
   }, [endpoints.get, baseURL]);
 
   useEffect(() => {
-    fetchData();
+    fetchData()
   }, [fetchData]);
 
   const add = async (item) => {
