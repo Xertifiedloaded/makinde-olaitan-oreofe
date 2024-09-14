@@ -36,7 +36,7 @@ const BlogPostPage = () => {
   const formattedDate = post.updatedAt ? format(new Date(post.updatedAt), 'MMMM dd, yyyy') : 'Unknown date';
 
   return (
-    <div className="container mx-auto px-4 py-8 max-w-4xl">
+    <div className="container mt-8 mx-auto px-4 py-8 max-w-4xl">
       <header className="mb-10">
         <h1 className="text-[40px] font-extrabold text-gray-900 dark:text-gray-100 mb-4">
           {post.title}
