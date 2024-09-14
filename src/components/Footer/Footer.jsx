@@ -40,7 +40,7 @@ export default function Footer() {
     >
       <h2 id="footer-heading" className="sr-only">Footer</h2>
       <div className="mx-auto max-w-7xl">
-        <div className="m-16 lg:flex lg:items-center lg:justify-between">
+        <div className="m-10 lg:flex lg:items-center lg:justify-between">
           <div>
             {error && <div className="mb-4 text-red-600">{error}</div>}
             {success && <div className="mb-4 text-green-600">{success}</div>}

@@ -12,8 +12,6 @@ const Projects = () => {
 
   const [projectItems, setMenuItems] = useState([]);
   const [navList, setCategories] = useState(['fullstack']);
-console.log(navList);
-
 
   useEffect(() => {
     if (project && project.length > 0) {

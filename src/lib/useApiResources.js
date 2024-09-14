@@ -1,12 +1,13 @@
 'use client'
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 
 export const useResource = (baseURL, endpoints = {}) => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const fetchData = async () => {
+
+  const fetchData = useCallback(async () => {
     try {
       setLoading(true);
       const response = await fetch(endpoints.get || baseURL);
@@ -17,7 +18,9 @@ export const useResource = (baseURL, endpoints = {}) => {
     } finally {
       setLoading(false);
     }
-  };
+  }, [endpoints.get, baseURL]);
+
+
 
   const add = async (item) => {
     try {
@@ -50,7 +53,7 @@ export const useResource = (baseURL, endpoints = {}) => {
       });
       const result = await response.json();
       if (result.success) {
-        fetchData();
+        fetchData(); 
       } else {
         throw new Error(result.message || 'Failed to edit item');
       }
@@ -59,6 +62,8 @@ export const useResource = (baseURL, endpoints = {}) => {
     }
   };
 
+  
+
   const remove = async (id) => {
     try {
       const response = await fetch(`${endpoints.remove || baseURL}/${id}`, {
@@ -66,7 +71,7 @@ export const useResource = (baseURL, endpoints = {}) => {
       });
       const result = await response.json();
       if (result.success) {
-        fetchData();
+        fetchData(); 
       } else {
         throw new Error(result.message || 'Failed to remove item');
       }
@@ -77,7 +82,7 @@ export const useResource = (baseURL, endpoints = {}) => {
 
   useEffect(() => {
     fetchData();
-  }, [baseURL]);
+  }, [fetchData]);
 
   return { data, loading, error, add, edit, remove };
 };

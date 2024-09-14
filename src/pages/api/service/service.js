@@ -1,13 +1,9 @@
 import databaseConnection from "@/lib/mongodb";
 import Service from "@/model/service";
 
-
-
-
 export default async function handler(req, res) {
   databaseConnection();
   const { method } = req;
-
   switch (method) {
     case 'GET':
       try {

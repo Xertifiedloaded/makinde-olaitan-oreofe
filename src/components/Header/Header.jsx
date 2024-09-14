@@ -67,6 +67,7 @@ const Header = () => {
       }
     }
   };
+  
 
   return (
     <header
@@ -124,7 +125,6 @@ const Header = () => {
           </div>
         </div>
 
-        {/* Theme Toggler and Menu Toggle */}
         <div className='flex items-center gap-4 md:gap-10'>
           <div className='text-black dark:text-white'>
             {theme === 'dark' ? (
@@ -134,7 +134,6 @@ const Header = () => {
             )}
           </div>
 
-          {/* Hamburger Menu Toggle */}
           <div
             className='relative z-[100] cursor-pointer w-6 md:w-7 h-5 md:h-6'
             onClick={() => setShowMenu(!showMenu)}
