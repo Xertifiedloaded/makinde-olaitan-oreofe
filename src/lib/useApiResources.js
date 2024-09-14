@@ -81,8 +81,6 @@ export const useResource = (baseURL, endpoints = {}) => {
     }
   }
 
-
-
   return { data, loading, error, add, edit, remove }
 }
 
