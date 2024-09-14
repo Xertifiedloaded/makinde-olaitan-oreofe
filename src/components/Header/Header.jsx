@@ -110,7 +110,7 @@ const Header = () => {
               ))}
             </ul>
 
-            {/* Social Icons */}
+
             <div className='flex gap-4 md:gap-5 mb-6 md:mb-10'>
               {[FaTwitter, FaFacebookSquare, FaGithub, FaInstagram, FaTelegram, FaYoutube, FaEnvelope].map((Icon, index) => (
                 <a
