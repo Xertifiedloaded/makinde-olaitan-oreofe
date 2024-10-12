@@ -9,30 +9,28 @@ import { useResource } from '@/lib/useApiResources';
 const Projects = () => {
   const API_URL = "/api/project/project";
   const { data: project } = useResource(API_URL);
-
-  const [projectItems, setMenuItems] = useState([]);
   const [navList, setCategories] = useState(['fullstack']);
-
+  const [projectItems, setProjectItems] = useState([]);
+  
   useEffect(() => {
     if (project && project.length > 0) {
-      const allNavList = [ ...new Set(project.map((proj) => proj.category))];
-      setCategories(allNavList); 
-      setMenuItems(project);    
+      const uniqueCategories = new Set(project.map((proj) => proj.category));
+      setCategories(['fullstack', ...uniqueCategories]); 
+      setProjectItems(project);    
     }
   }, [project]);
-
+  
   const filterItems = (category) => {
     if (category === 'fullstack') {
-      setMenuItems(project);
+      setProjectItems(project);
       return;
     }
-    const newProjectItems = project.filter(
+    const filteredProjectItems = project.filter(
       (item) => item.category === category
     );
-
-    setMenuItems(newProjectItems);
+    setProjectItems(filteredProjectItems);
   };
-
+  
   return (
     <section
       className='portfolio  section pb-[50px] bg-gradient-0 from-bgColor to-bgColor  dark:bg-gradient-180 dark:from-bgColorAltDark dark:to-bgColorDark px-[5%] sm:px-[2%] 2xl:px-[17%]'

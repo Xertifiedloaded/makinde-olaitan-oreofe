@@ -15,7 +15,7 @@ export default function App({ Component, pageProps }) {
     <>
       <div className={`${manrope.className}`}>
         <Layout>
-          <Header/>
+
           <Component {...pageProps} />
           <Footer/>
         </Layout>

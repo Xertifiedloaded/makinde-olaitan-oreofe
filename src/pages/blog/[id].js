@@ -73,4 +73,4 @@ const BlogPostPage = () => {
   );
 };
 
-export default BlogPostPage;
+export default BlogPostPage

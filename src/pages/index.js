@@ -9,6 +9,7 @@ import Contact from "@/components/Contact/Contact"
 
 import Resume from "@/components/Resume/Resume"
 import Projects from "@/components/Projects/Projects"
+import Header from "@/components/Header/Header"
 export default function Landing() {
   return (
     <>
@@ -22,7 +23,7 @@ export default function Landing() {
         <link rel="icon" href="/" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
       </Head>
-
+      <Header/>
       <Home />
       <Services />
       <Skills />
